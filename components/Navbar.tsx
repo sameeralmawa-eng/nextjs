@@ -84,6 +84,12 @@ export default function Navbar() {
                     >
                         Products
                     </Link>
+                    <Link
+                        href="/pricing"
+                        className="text-sm font-medium text-zinc-600 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-zinc-100 transition-colors px-3 py-2 rounded-md hover:bg-zinc-100 dark:hover:bg-zinc-800/60"
+                    >
+                        Pricing
+                    </Link>
 
                     {authChecked && !isLoggedIn && (
                         <>
